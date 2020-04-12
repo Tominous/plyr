@@ -777,7 +777,7 @@ class Plyr {
         this.media.loop = toggle;
 
         // Set default to be a true toggle
-        /* const type = ['start', 'end', 'all', 'none', 'toggle'].includes(input) ? input : 'toggle';
+         const type = ['start', 'end', 'all', 'none', 'toggle'].includes(input) ? input : 'toggle';
 
         switch (type) {
             case 'start':
@@ -785,7 +785,7 @@ class Plyr {
                     this.config.loop.end = null;
                 }
                 this.config.loop.start = this.currentTime;
-                // this.config.loop.indicator.start = this.elements.display.played.value;
+                 this.config.loop.indicator.start = this.elements.display.played.value;
                 break;
 
             case 'end':
@@ -793,7 +793,7 @@ class Plyr {
                     return this;
                 }
                 this.config.loop.end = this.currentTime;
-                // this.config.loop.indicator.end = this.elements.display.played.value;
+                 this.config.loop.indicator.end = this.elements.display.played.value;
                 break;
 
             case 'all':
@@ -817,7 +817,7 @@ class Plyr {
                 this.config.loop.start = 0;
                 this.config.loop.end = null;
                 break;
-        } */
+        } 
     }
 
     /**
