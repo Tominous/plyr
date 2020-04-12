@@ -945,7 +945,7 @@ const controls = {
     },
 
     // Set the looping options
-    /* setLoopMenu() {
+     setLoopMenu() {
         // Menu required
         if (!is.element(this.elements.settings.panels.loop)) {
             return;
@@ -986,7 +986,7 @@ const controls = {
             item.appendChild(button);
             list.appendChild(item);
         });
-    }, */
+    },
 
     // Get current selected caption language
     // TODO: rework this to user the getter in the API?
