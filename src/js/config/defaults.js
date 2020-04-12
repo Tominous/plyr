@@ -10,7 +10,7 @@ const defaults = {
     title: '',
 
     // Logging to console
-    debug: false,
+    debug: true,
 
     // Auto play (if supported)
     autoplay: false,
@@ -126,20 +126,20 @@ const defaults = {
     // Default controls
     controls: [
         'play-large',
-        // 'restart',
-        // 'rewind',
+         'restart',
+         'rewind',
         'play',
-        // 'fast-forward',
+         'fast-forward',
         'progress',
         'current-time',
-        // 'duration',
+         'duration',
         'mute',
         'volume',
         'captions',
         'settings',
         'pip',
         'airplay',
-        // 'download',
+         'download',
         'fullscreen',
     ],
     settings: ['captions', 'quality', 'speed'],
