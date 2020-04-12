@@ -331,8 +331,8 @@ class Ads {
                     ad.height = container.offsetHeight;
                 }
 
-                // console.info('Ad type: ' + event.getAd().getAdPodInfo().getPodIndex());
-                // console.info('Ad time: ' + event.getAd().getAdPodInfo().getTimeOffset());
+                 console.info('Ad type: ' + event.getAd().getAdPodInfo().getPodIndex());
+                 console.info('Ad time: ' + event.getAd().getAdPodInfo().getTimeOffset());
 
                 break;
 
@@ -352,19 +352,19 @@ class Ads {
                 // Is started - after - the ads are loaded, then we get ads.
                 // You can also easily test cancelling and reloading by running
                 // player.ads.cancel() and player.ads.play from the console I guess.
-                // this.player.source = {
-                //     type: 'video',
-                //     title: 'View From A Blue Moon',
-                //     sources: [{
-                //         src:
-                // 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.mp4', type:
-                // 'video/mp4', }], poster:
-                // 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg', tracks:
-                // [ { kind: 'captions', label: 'English', srclang: 'en', src:
-                // 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt',
-                // default: true, }, { kind: 'captions', label: 'French', srclang: 'fr', src:
-                // 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt', }, ],
-                // };
+                 this.player.source = {
+                     type: 'video',
+                     title: 'View From A Blue Moon',
+                     sources: [{
+                         src:
+                 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.mp4', type:
+                 'video/mp4', }], poster:
+                 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg', tracks:
+                 [ { kind: 'captions', label: 'English', srclang: 'en', src:
+                 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt',
+                 default: true, }, { kind: 'captions', label: 'French', srclang: 'fr', src:
+                 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt', }, ],
+                 };
 
                 // TODO: So there is still this thing where a video should only be allowed to start
                 // playing when the IMA SDK is ready or has failed
